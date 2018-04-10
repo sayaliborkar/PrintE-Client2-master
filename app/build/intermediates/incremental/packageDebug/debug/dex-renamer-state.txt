@@ -1,0 +1,4 @@
+#Mon Apr 09 20:48:05 AZOST 2018
+base.0=/home/sayali/Downloads/PrintE-Client2-master/app/build/intermediates/transforms/dexMerger/debug/0
+path.0=classes.dex
+renamed.0=classes.dex
