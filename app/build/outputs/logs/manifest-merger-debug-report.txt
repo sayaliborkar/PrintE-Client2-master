@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/sayali/Downloads/PrintE-Client2-master/app/src/main/AndroidManifest.xml:2:1-38:12
-INJECTED from /home/sayali/Downloads/PrintE-Client2-master/app/src/main/AndroidManifest.xml:2:1-38:12
-INJECTED from /home/sayali/Downloads/PrintE-Client2-master/app/src/main/AndroidManifest.xml:2:1-38:12
-INJECTED from /home/sayali/Downloads/PrintE-Client2-master/app/src/main/AndroidManifest.xml:2:1-38:12
+ADDED from /home/sayali/Downloads/PrintE-Client2-master/app/src/main/AndroidManifest.xml:2:1-42:12
+INJECTED from /home/sayali/Downloads/PrintE-Client2-master/app/src/main/AndroidManifest.xml:2:1-42:12
+INJECTED from /home/sayali/Downloads/PrintE-Client2-master/app/src/main/AndroidManifest.xml:2:1-42:12
+INJECTED from /home/sayali/Downloads/PrintE-Client2-master/app/src/main/AndroidManifest.xml:2:1-42:12
 MERGED from [com.google.firebase:firebase-core:11.0.4] /home/sayali/.gradle/caches/transforms-1/files-1.1/firebase-core-11.0.4.aar/f670dc6027c26688fb0ef38ae1b47575/AndroidManifest.xml:2:1-6:12
 MERGED from [com.android.support:design:26.1.0] /home/sayali/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/7e538e2451dc97e165ee19d2f961916c/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:appcompat-v7:26.1.0] /home/sayali/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/6668363128278ccf8e85158ae30a1844/AndroidManifest.xml:17:1-31:12
@@ -11,11 +11,8 @@ MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/sayal
 MERGED from [com.google.firebase:firebase-auth:11.0.4] /home/sayali/.gradle/caches/transforms-1/files-1.1/firebase-auth-11.0.4.aar/de76b04579e04a6ca81c95bedcd90c27/AndroidManifest.xml:16:1-21:12
 MERGED from [com.google.firebase:firebase-database:11.0.4] /home/sayali/.gradle/caches/transforms-1/files-1.1/firebase-database-11.0.4.aar/8d9f1f0acb93fe0c5c55c5f7b7835e67/AndroidManifest.xml:2:1-4:12
 MERGED from [com.google.firebase:firebase-messaging:11.0.4] /home/sayali/.gradle/caches/transforms-1/files-1.1/firebase-messaging-11.0.4.aar/314f070b4aa233ad526a9486f2a0af05/AndroidManifest.xml:16:1-30:12
-MERGED from [com.google.firebase:firebase-analytics:11.0.4] /home/sayali/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.0.4.aar/6557d11a97cfa36ac8d943d3e66f740c/AndroidManifest.xml:16:1-35:12
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/sayali/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/cb185eb8263fc1f12412bb7301db4a74/AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/sayali/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/f9cf93cabdcdf3967140861217d298a6/AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/sayali/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/4b4fdec99cfe2086ed3a7b2e1bff0f86/AndroidManifest.xml:17:1-28:12
 MERGED from [com.android.support:transition:26.1.0] /home/sayali/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/68186864116263fcbf3a2ab6b4ee634e/AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.firebase:firebase-analytics:11.0.4] /home/sayali/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.0.4.aar/6557d11a97cfa36ac8d943d3e66f740c/AndroidManifest.xml:16:1-35:12
 MERGED from [com.google.android.gms:play-services-base:11.0.4] /home/sayali/.gradle/caches/transforms-1/files-1.1/play-services-base-11.0.4.aar/82dc880f3d9f4e7895bb8df1fac5c744/AndroidManifest.xml:16:1-21:12
 MERGED from [com.google.firebase:firebase-database-connection:11.0.4] /home/sayali/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-11.0.4.aar/5367c492976d13756ca7fb5671e0d5d8/AndroidManifest.xml:2:1-4:12
 MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] /home/sayali/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.0.4.aar/5489d40e436ed761198a047dcfa3df81/AndroidManifest.xml:16:1-29:12
@@ -24,31 +21,34 @@ MERGED from [com.google.firebase:firebase-common:11.0.4] /home/sayali/.gradle/ca
 MERGED from [com.google.android.gms:play-services-tasks:11.0.4] /home/sayali/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.0.4.aar/d16d70e8365fddeb860a805693f9a466/AndroidManifest.xml:2:1-5:12
 MERGED from [com.google.android.gms:play-services-basement:11.0.4] /home/sayali/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.0.4.aar/1fe0f5650d633af64289d7bac5ec98b8/AndroidManifest.xml:16:1-23:12
 MERGED from [com.android.support:support-v4:26.1.0] /home/sayali/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/61d73cb5aa3737f33285e4297b37a3c9/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/sayali/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/cb185eb8263fc1f12412bb7301db4a74/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/sayali/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/f9cf93cabdcdf3967140861217d298a6/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/sayali/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/4b4fdec99cfe2086ed3a7b2e1bff0f86/AndroidManifest.xml:17:1-28:12
 MERGED from [com.android.support:support-fragment:26.1.0] /home/sayali/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/4cd8640715ba4c926302c1d4807ef2f0/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-core-ui:26.1.0] /home/sayali/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/d5895fe7fc991bd7235f632d8656d3b3/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-media-compat:26.1.0] /home/sayali/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/5f9816f1d6e677e5f9d38e06966bac67/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-core-utils:26.1.0] /home/sayali/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/246e26194da95dae5582b6233a850267/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-compat:26.1.0] /home/sayali/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/3ceadc8a0623e3b9a837129024bfc07d/AndroidManifest.xml:17:1-31:12
 MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/sayali/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/be50bfeffc5dbb97502bf5f0a58c24bc/AndroidManifest.xml:17:1-30:12
-INJECTED from /home/sayali/Downloads/PrintE-Client2-master/app/src/main/AndroidManifest.xml:2:1-38:12
-INJECTED from /home/sayali/Downloads/PrintE-Client2-master/app/src/main/AndroidManifest.xml:2:1-38:12
-INJECTED from /home/sayali/Downloads/PrintE-Client2-master/app/src/main/AndroidManifest.xml:2:1-38:12
+INJECTED from /home/sayali/Downloads/PrintE-Client2-master/app/src/main/AndroidManifest.xml:2:1-42:12
+INJECTED from /home/sayali/Downloads/PrintE-Client2-master/app/src/main/AndroidManifest.xml:2:1-42:12
+INJECTED from /home/sayali/Downloads/PrintE-Client2-master/app/src/main/AndroidManifest.xml:2:1-42:12
 	package
 		ADDED from /home/sayali/Downloads/PrintE-Client2-master/app/src/main/AndroidManifest.xml:3:5-38
 		INJECTED from /home/sayali/Downloads/PrintE-Client2-master/app/src/main/AndroidManifest.xml
 		INJECTED from /home/sayali/Downloads/PrintE-Client2-master/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /home/sayali/Downloads/PrintE-Client2-master/app/src/main/AndroidManifest.xml
-		ADDED from /home/sayali/Downloads/PrintE-Client2-master/app/src/main/AndroidManifest.xml:2:1-38:12
+		ADDED from /home/sayali/Downloads/PrintE-Client2-master/app/src/main/AndroidManifest.xml:2:1-42:12
 		INJECTED from /home/sayali/Downloads/PrintE-Client2-master/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /home/sayali/Downloads/PrintE-Client2-master/app/src/main/AndroidManifest.xml
-		ADDED from /home/sayali/Downloads/PrintE-Client2-master/app/src/main/AndroidManifest.xml:2:1-38:12
+		ADDED from /home/sayali/Downloads/PrintE-Client2-master/app/src/main/AndroidManifest.xml:2:1-42:12
 		INJECTED from /home/sayali/Downloads/PrintE-Client2-master/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /home/sayali/Downloads/PrintE-Client2-master/app/src/main/AndroidManifest.xml:2:11-69
 application
-ADDED from /home/sayali/Downloads/PrintE-Client2-master/app/src/main/AndroidManifest.xml:5:5-36:19
+ADDED from /home/sayali/Downloads/PrintE-Client2-master/app/src/main/AndroidManifest.xml:5:5-40:19
 MERGED from [com.google.firebase:firebase-core:11.0.4] /home/sayali/.gradle/caches/transforms-1/files-1.1/firebase-core-11.0.4.aar/f670dc6027c26688fb0ef38ae1b47575/AndroidManifest.xml:5:5-20
 MERGED from [com.google.firebase:firebase-core:11.0.4] /home/sayali/.gradle/caches/transforms-1/files-1.1/firebase-core-11.0.4.aar/f670dc6027c26688fb0ef38ae1b47575/AndroidManifest.xml:5:5-20
 MERGED from [com.android.support:design:26.1.0] /home/sayali/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/7e538e2451dc97e165ee19d2f961916c/AndroidManifest.xml:25:5-29:19
@@ -61,16 +61,10 @@ MERGED from [com.google.firebase:firebase-auth:11.0.4] /home/sayali/.gradle/cach
 MERGED from [com.google.firebase:firebase-auth:11.0.4] /home/sayali/.gradle/caches/transforms-1/files-1.1/firebase-auth-11.0.4.aar/de76b04579e04a6ca81c95bedcd90c27/AndroidManifest.xml:19:5-20:19
 MERGED from [com.google.firebase:firebase-messaging:11.0.4] /home/sayali/.gradle/caches/transforms-1/files-1.1/firebase-messaging-11.0.4.aar/314f070b4aa233ad526a9486f2a0af05/AndroidManifest.xml:19:5-29:19
 MERGED from [com.google.firebase:firebase-messaging:11.0.4] /home/sayali/.gradle/caches/transforms-1/files-1.1/firebase-messaging-11.0.4.aar/314f070b4aa233ad526a9486f2a0af05/AndroidManifest.xml:19:5-29:19
-MERGED from [com.google.firebase:firebase-analytics:11.0.4] /home/sayali/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.0.4.aar/6557d11a97cfa36ac8d943d3e66f740c/AndroidManifest.xml:24:5-34:19
-MERGED from [com.google.firebase:firebase-analytics:11.0.4] /home/sayali/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.0.4.aar/6557d11a97cfa36ac8d943d3e66f740c/AndroidManifest.xml:24:5-34:19
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/sayali/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/cb185eb8263fc1f12412bb7301db4a74/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/sayali/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/cb185eb8263fc1f12412bb7301db4a74/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/sayali/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/f9cf93cabdcdf3967140861217d298a6/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/sayali/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/f9cf93cabdcdf3967140861217d298a6/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/sayali/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/4b4fdec99cfe2086ed3a7b2e1bff0f86/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/sayali/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/4b4fdec99cfe2086ed3a7b2e1bff0f86/AndroidManifest.xml:22:5-26:19
 MERGED from [com.android.support:transition:26.1.0] /home/sayali/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/68186864116263fcbf3a2ab6b4ee634e/AndroidManifest.xml:22:5-26:19
 MERGED from [com.android.support:transition:26.1.0] /home/sayali/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/68186864116263fcbf3a2ab6b4ee634e/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.firebase:firebase-analytics:11.0.4] /home/sayali/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.0.4.aar/6557d11a97cfa36ac8d943d3e66f740c/AndroidManifest.xml:24:5-34:19
+MERGED from [com.google.firebase:firebase-analytics:11.0.4] /home/sayali/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.0.4.aar/6557d11a97cfa36ac8d943d3e66f740c/AndroidManifest.xml:24:5-34:19
 MERGED from [com.google.android.gms:play-services-base:11.0.4] /home/sayali/.gradle/caches/transforms-1/files-1.1/play-services-base-11.0.4.aar/82dc880f3d9f4e7895bb8df1fac5c744/AndroidManifest.xml:18:5-20:19
 MERGED from [com.google.android.gms:play-services-base:11.0.4] /home/sayali/.gradle/caches/transforms-1/files-1.1/play-services-base-11.0.4.aar/82dc880f3d9f4e7895bb8df1fac5c744/AndroidManifest.xml:18:5-20:19
 MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] /home/sayali/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.0.4.aar/5489d40e436ed761198a047dcfa3df81/AndroidManifest.xml:24:5-28:19
@@ -85,6 +79,12 @@ MERGED from [com.google.android.gms:play-services-basement:11.0.4] /home/sayali/
 MERGED from [com.google.android.gms:play-services-basement:11.0.4] /home/sayali/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.0.4.aar/1fe0f5650d633af64289d7bac5ec98b8/AndroidManifest.xml:19:5-21:19
 MERGED from [com.android.support:support-v4:26.1.0] /home/sayali/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/61d73cb5aa3737f33285e4297b37a3c9/AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:support-v4:26.1.0] /home/sayali/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/61d73cb5aa3737f33285e4297b37a3c9/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/sayali/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/cb185eb8263fc1f12412bb7301db4a74/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/sayali/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/cb185eb8263fc1f12412bb7301db4a74/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/sayali/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/f9cf93cabdcdf3967140861217d298a6/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/sayali/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/f9cf93cabdcdf3967140861217d298a6/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/sayali/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/4b4fdec99cfe2086ed3a7b2e1bff0f86/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/sayali/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/4b4fdec99cfe2086ed3a7b2e1bff0f86/AndroidManifest.xml:22:5-26:19
 MERGED from [com.android.support:support-fragment:26.1.0] /home/sayali/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/4cd8640715ba4c926302c1d4807ef2f0/AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:support-fragment:26.1.0] /home/sayali/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/4cd8640715ba4c926302c1d4807ef2f0/AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:support-core-ui:26.1.0] /home/sayali/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/d5895fe7fc991bd7235f632d8656d3b3/AndroidManifest.xml:25:5-29:19
@@ -156,9 +156,17 @@ ADDED from /home/sayali/Downloads/PrintE-Client2-master/app/src/main/AndroidMani
 	android:name
 		ADDED from /home/sayali/Downloads/PrintE-Client2-master/app/src/main/AndroidManifest.xml:34:19-39
 activity#com.example.lkh.printec.edit_profile
-ADDED from /home/sayali/Downloads/PrintE-Client2-master/app/src/main/AndroidManifest.xml:35:9-59
+ADDED from /home/sayali/Downloads/PrintE-Client2-master/app/src/main/AndroidManifest.xml:35:9-50
 	android:name
 		ADDED from /home/sayali/Downloads/PrintE-Client2-master/app/src/main/AndroidManifest.xml:35:19-47
+activity#com.example.lkh.printec.fragment_inprogress
+ADDED from /home/sayali/Downloads/PrintE-Client2-master/app/src/main/AndroidManifest.xml:36:9-39:59
+	android:label
+		ADDED from /home/sayali/Downloads/PrintE-Client2-master/app/src/main/AndroidManifest.xml:38:13-71
+	android:theme
+		ADDED from /home/sayali/Downloads/PrintE-Client2-master/app/src/main/AndroidManifest.xml:39:13-56
+	android:name
+		ADDED from /home/sayali/Downloads/PrintE-Client2-master/app/src/main/AndroidManifest.xml:37:13-48
 uses-sdk
 INJECTED from /home/sayali/Downloads/PrintE-Client2-master/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/sayali/Downloads/PrintE-Client2-master/app/src/main/AndroidManifest.xml
@@ -177,16 +185,10 @@ MERGED from [com.google.firebase:firebase-database:11.0.4] /home/sayali/.gradle/
 MERGED from [com.google.firebase:firebase-database:11.0.4] /home/sayali/.gradle/caches/transforms-1/files-1.1/firebase-database-11.0.4.aar/8d9f1f0acb93fe0c5c55c5f7b7835e67/AndroidManifest.xml:3:5-43
 MERGED from [com.google.firebase:firebase-messaging:11.0.4] /home/sayali/.gradle/caches/transforms-1/files-1.1/firebase-messaging-11.0.4.aar/314f070b4aa233ad526a9486f2a0af05/AndroidManifest.xml:17:5-43
 MERGED from [com.google.firebase:firebase-messaging:11.0.4] /home/sayali/.gradle/caches/transforms-1/files-1.1/firebase-messaging-11.0.4.aar/314f070b4aa233ad526a9486f2a0af05/AndroidManifest.xml:17:5-43
-MERGED from [com.google.firebase:firebase-analytics:11.0.4] /home/sayali/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.0.4.aar/6557d11a97cfa36ac8d943d3e66f740c/AndroidManifest.xml:17:5-43
-MERGED from [com.google.firebase:firebase-analytics:11.0.4] /home/sayali/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.0.4.aar/6557d11a97cfa36ac8d943d3e66f740c/AndroidManifest.xml:17:5-43
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/sayali/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/cb185eb8263fc1f12412bb7301db4a74/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/sayali/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/cb185eb8263fc1f12412bb7301db4a74/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/sayali/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/f9cf93cabdcdf3967140861217d298a6/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/sayali/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/f9cf93cabdcdf3967140861217d298a6/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/sayali/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/4b4fdec99cfe2086ed3a7b2e1bff0f86/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/sayali/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/4b4fdec99cfe2086ed3a7b2e1bff0f86/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:transition:26.1.0] /home/sayali/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/68186864116263fcbf3a2ab6b4ee634e/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:transition:26.1.0] /home/sayali/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/68186864116263fcbf3a2ab6b4ee634e/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:11.0.4] /home/sayali/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.0.4.aar/6557d11a97cfa36ac8d943d3e66f740c/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics:11.0.4] /home/sayali/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.0.4.aar/6557d11a97cfa36ac8d943d3e66f740c/AndroidManifest.xml:17:5-43
 MERGED from [com.google.android.gms:play-services-base:11.0.4] /home/sayali/.gradle/caches/transforms-1/files-1.1/play-services-base-11.0.4.aar/82dc880f3d9f4e7895bb8df1fac5c744/AndroidManifest.xml:17:5-43
 MERGED from [com.google.android.gms:play-services-base:11.0.4] /home/sayali/.gradle/caches/transforms-1/files-1.1/play-services-base-11.0.4.aar/82dc880f3d9f4e7895bb8df1fac5c744/AndroidManifest.xml:17:5-43
 MERGED from [com.google.firebase:firebase-database-connection:11.0.4] /home/sayali/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-11.0.4.aar/5367c492976d13756ca7fb5671e0d5d8/AndroidManifest.xml:3:5-43
@@ -203,6 +205,12 @@ MERGED from [com.google.android.gms:play-services-basement:11.0.4] /home/sayali/
 MERGED from [com.google.android.gms:play-services-basement:11.0.4] /home/sayali/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.0.4.aar/1fe0f5650d633af64289d7bac5ec98b8/AndroidManifest.xml:17:5-43
 MERGED from [com.android.support:support-v4:26.1.0] /home/sayali/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/61d73cb5aa3737f33285e4297b37a3c9/AndroidManifest.xml:21:5-23:54
 MERGED from [com.android.support:support-v4:26.1.0] /home/sayali/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/61d73cb5aa3737f33285e4297b37a3c9/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/sayali/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/cb185eb8263fc1f12412bb7301db4a74/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/sayali/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/cb185eb8263fc1f12412bb7301db4a74/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/sayali/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/f9cf93cabdcdf3967140861217d298a6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/sayali/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/f9cf93cabdcdf3967140861217d298a6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/sayali/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/4b4fdec99cfe2086ed3a7b2e1bff0f86/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/sayali/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/4b4fdec99cfe2086ed3a7b2e1bff0f86/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-fragment:26.1.0] /home/sayali/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/4cd8640715ba4c926302c1d4807ef2f0/AndroidManifest.xml:21:5-23:60
 MERGED from [com.android.support:support-fragment:26.1.0] /home/sayali/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/4cd8640715ba4c926302c1d4807ef2f0/AndroidManifest.xml:21:5-23:60
 MERGED from [com.android.support:support-core-ui:26.1.0] /home/sayali/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/d5895fe7fc991bd7235f632d8656d3b3/AndroidManifest.xml:21:5-23:58
@@ -231,16 +239,16 @@ meta-data#android.support.VERSION
 ADDED from [com.android.support:design:26.1.0] /home/sayali/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/7e538e2451dc97e165ee19d2f961916c/AndroidManifest.xml:26:9-28:38
 MERGED from [com.android.support:appcompat-v7:26.1.0] /home/sayali/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/6668363128278ccf8e85158ae30a1844/AndroidManifest.xml:26:9-28:38
 MERGED from [com.android.support:appcompat-v7:26.1.0] /home/sayali/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/6668363128278ccf8e85158ae30a1844/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:transition:26.1.0] /home/sayali/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/68186864116263fcbf3a2ab6b4ee634e/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:26.1.0] /home/sayali/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/68186864116263fcbf3a2ab6b4ee634e/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v4:26.1.0] /home/sayali/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/61d73cb5aa3737f33285e4297b37a3c9/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.1.0] /home/sayali/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/61d73cb5aa3737f33285e4297b37a3c9/AndroidManifest.xml:26:9-28:38
 MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/sayali/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/cb185eb8263fc1f12412bb7301db4a74/AndroidManifest.xml:23:9-25:38
 MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/sayali/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/cb185eb8263fc1f12412bb7301db4a74/AndroidManifest.xml:23:9-25:38
 MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/sayali/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/f9cf93cabdcdf3967140861217d298a6/AndroidManifest.xml:23:9-25:38
 MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/sayali/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/f9cf93cabdcdf3967140861217d298a6/AndroidManifest.xml:23:9-25:38
 MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/sayali/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/4b4fdec99cfe2086ed3a7b2e1bff0f86/AndroidManifest.xml:23:9-25:38
 MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/sayali/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/4b4fdec99cfe2086ed3a7b2e1bff0f86/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:transition:26.1.0] /home/sayali/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/68186864116263fcbf3a2ab6b4ee634e/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:transition:26.1.0] /home/sayali/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/68186864116263fcbf3a2ab6b4ee634e/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-v4:26.1.0] /home/sayali/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/61d73cb5aa3737f33285e4297b37a3c9/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-v4:26.1.0] /home/sayali/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/61d73cb5aa3737f33285e4297b37a3c9/AndroidManifest.xml:26:9-28:38
 MERGED from [com.android.support:support-fragment:26.1.0] /home/sayali/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/4cd8640715ba4c926302c1d4807ef2f0/AndroidManifest.xml:26:9-28:38
 MERGED from [com.android.support:support-fragment:26.1.0] /home/sayali/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/4cd8640715ba4c926302c1d4807ef2f0/AndroidManifest.xml:26:9-28:38
 MERGED from [com.android.support:support-core-ui:26.1.0] /home/sayali/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/d5895fe7fc991bd7235f632d8656d3b3/AndroidManifest.xml:26:9-28:38

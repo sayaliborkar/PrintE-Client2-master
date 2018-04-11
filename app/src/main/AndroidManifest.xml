@@ -32,7 +32,11 @@
             android:label="@string/title_activity_home"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".Jobs" />
-        <activity android:name=".edit_profile"></activity>
+        <activity android:name=".edit_profile" />
+        <activity
+            android:name=".fragment_inprogress"
+            android:label="@string/title_activity_fragment_inprogress"
+            android:theme="@style/AppTheme.NoActionBar" />
     </application>
 
 </manifest>

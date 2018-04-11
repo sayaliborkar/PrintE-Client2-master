@@ -632,6 +632,10 @@
         "source": "/home/sayali/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/6668363128278ccf8e85158ae30a1844/res/drawable-xxhdpi-v4/abc_ic_star_half_black_36dp.png"
     },
     {
+        "merged": "/home/sayali/Downloads/PrintE-Client2-master/app/build/intermediates/res/merged/debug/layout_fragment_inprogress.xml.flat",
+        "source": "/home/sayali/Downloads/PrintE-Client2-master/app/src/main/res/layout/fragment_inprogress.xml"
+    },
+    {
         "merged": "/home/sayali/Downloads/PrintE-Client2-master/app/build/intermediates/res/merged/debug/layout_select_dialog_multichoice_material.xml.flat",
         "source": "/home/sayali/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/6668363128278ccf8e85158ae30a1844/res/layout/select_dialog_multichoice_material.xml"
     },
@@ -1516,6 +1520,10 @@
         "source": "/home/sayali/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/6668363128278ccf8e85158ae30a1844/res/drawable-mdpi-v4/abc_text_select_handle_left_mtrl_dark.png"
     },
     {
+        "merged": "/home/sayali/Downloads/PrintE-Client2-master/app/build/intermediates/res/merged/debug/layout_activity_fragment_inprogress.xml.flat",
+        "source": "/home/sayali/Downloads/PrintE-Client2-master/app/src/main/res/layout/activity_fragment_inprogress.xml"
+    },
+    {
         "merged": "/home/sayali/Downloads/PrintE-Client2-master/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat",
         "source": "/home/sayali/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/6668363128278ccf8e85158ae30a1844/res/drawable-hdpi-v4/abc_btn_check_to_on_mtrl_000.png"
     },
@@ -1990,6 +1998,10 @@
     {
         "merged": "/home/sayali/Downloads/PrintE-Client2-master/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_popup_background_mtrl_mult.9.png.flat",
         "source": "/home/sayali/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/6668363128278ccf8e85158ae30a1844/res/drawable-xxhdpi-v4/abc_popup_background_mtrl_mult.9.png"
+    },
+    {
+        "merged": "/home/sayali/Downloads/PrintE-Client2-master/app/build/intermediates/res/merged/debug/layout_fragment_completed.xml.flat",
+        "source": "/home/sayali/Downloads/PrintE-Client2-master/app/src/main/res/layout/fragment_completed.xml"
     },
     {
         "merged": "/home/sayali/Downloads/PrintE-Client2-master/app/build/intermediates/res/merged/debug/anim_abc_grow_fade_in_from_bottom.xml.flat",

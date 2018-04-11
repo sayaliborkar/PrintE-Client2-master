@@ -4,6 +4,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
+import android.support.design.widget.TabLayout;
+import android.support.v4.view.ViewPager;
 import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -40,6 +42,9 @@ public class Home extends AppCompatActivity
     List<String> displayJobs;
     ArrayAdapter<String> adapter;
 
+    private TabLayout tabLayout;
+    private ViewPager viewPager;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -47,6 +52,13 @@ public class Home extends AppCompatActivity
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayShowTitleEnabled(false);
+
+        viewPager = (ViewPager) findViewById(R.id.viewpager);
+        ViewPageAdapter adapter = new ViewPageAdapter(getSupportFragmentManager());
+        viewPager.setAdapter(adapter);
+
+        tabLayout = (TabLayout) findViewById(R.id.tabs);
+        tabLayout.setupWithViewPager(viewPager);
         /*FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -77,10 +89,6 @@ public class Home extends AppCompatActivity
 
         db_reference1 = FirebaseDatabase.getInstance().getReference();
         firebaseAuth = FirebaseAuth.getInstance();
-        //Intent i = getIntent();
-        //shopId = i.getStringExtra("shopId");
-        //userId = "uuu";
-        //addJobs();
 
         final ListView listView = findViewById(R.id.listview);
 
@@ -88,9 +96,13 @@ public class Home extends AppCompatActivity
         db_ref_jobs = db_reference1.child("jobs");
         values = new ArrayList<save_job_info>();
         displayJobs = new ArrayList<>();
+        /*adapter = new ArrayAdapter<String>(Home.this,
+                android.R.layout.simple_list_item_1, android.R.id.text1, displayJobs);*/
         db_ref_jobs.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
+                values.clear();
+                displayJobs.clear();
                 for (DataSnapshot single : dataSnapshot.getChildren()) {
                     save_job_info user = single.getValue(save_job_info.class);
                     if(user.shop_id.equals(firebaseAuth.getCurrentUser().getUid()))
@@ -100,9 +112,8 @@ public class Home extends AppCompatActivity
                     }
                     //System.out.println(single.getKey());
                 }
-                adapter = new ArrayAdapter<String>(Home.this,
-                        android.R.layout.simple_list_item_1, android.R.id.text1, displayJobs);
-                listView.setAdapter(adapter);
+
+                //listView.setAdapter(adapter);
             }
 
             @Override
@@ -128,13 +139,6 @@ public class Home extends AppCompatActivity
         });
 
     }
-
-    /*public void addJobs(){
-        //save_job_info jobObj = new save_job_info(shopId,userId,copies,sided,completed);
-        save_job_info jobObj = new save_job_info(shopId,userId,2,1,0);
-        String jobId = "jjj1";
-        db_reference1.child("jobs").child(jobId).setValue(jobObj);
-    }*/
 
     @Override
     public void onBackPressed() {
