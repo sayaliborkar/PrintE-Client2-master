@@ -13,5 +13,7 @@
         android:padding="10dp"
         android:textSize="40sp"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:textStyle="bold"/>
+        android:textStyle="bold"
+        android:clickable="false"
+        android:focusable="false"/>
 </LinearLayout>
