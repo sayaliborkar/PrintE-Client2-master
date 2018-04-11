@@ -18,6 +18,7 @@ import android.view.MenuItem;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import android.widget.Switch;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -41,6 +42,7 @@ public class Home extends AppCompatActivity
     List<save_job_info> values;
     List<String> displayJobs;
     ArrayAdapter<String> adapter;
+    private String hno;
 
     private TabLayout tabLayout;
     private ViewPager viewPager;
@@ -67,6 +69,33 @@ public class Home extends AppCompatActivity
                         .setAction("Action", null).show();
             }
         });*/
+        final Switch switch1 = (Switch) findViewById(R.id.switch1);
+        switch1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String id = firebaseAuth.getCurrentUser().getUid();
+                if(switch1.isChecked()){
+                    db_reference1.child("shop_owner").child(id).addValueEventListener(new ValueEventListener() {
+                        @Override
+                        public void onDataChange(DataSnapshot dataSnapshot) {
+                            save_user_info user = dataSnapshot.getValue(save_user_info.class);
+                            hno = user.h_no;
+                        }
+
+                        @Override
+                        public void onCancelled(DatabaseError databaseError) {
+
+                        }
+                    });
+                    db_reference1.child("Online_printers").child(id).setValue(hno);
+                }
+                else
+                {
+                    db_reference1.child("Online_printers").child(id).setValue(null);
+                }
+            }
+        });
+
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
                 this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
